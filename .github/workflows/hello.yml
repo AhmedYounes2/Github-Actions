@@ -1,0 +1,11 @@
+name: Hello, there workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  print-hello-there:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello there!"
