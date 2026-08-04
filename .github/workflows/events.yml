@@ -1,0 +1,10 @@
+name: Events
+
+on: push
+
+jobs:
+  print-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print push
+        run: echo "Push event triggered"
