@@ -1,10 +1,9 @@
 name: Events filters
 
 on:
-  pull_request:
-    types:
-      - closed
-      - reopened
+  push:
+    branches:
+      - main
 
 
 jobs:
