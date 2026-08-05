@@ -1,0 +1,14 @@
+name: Events filters
+
+on:
+  pull_request:
+    types:
+      - closed
+
+
+jobs:
+  print-event-filters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print Event filters
+        run: echo "Events filters basics"
